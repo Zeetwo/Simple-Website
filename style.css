@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.nav-logo {
+/* .nav-logo {
     height: 60px;
     width: 60px;
 }
@@ -21,7 +21,7 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-}
+} */
 .title a {
     height: 50px;
     width: 100px;
@@ -42,6 +42,7 @@
     font-size: 1rem;
     border: 0.2px solid wheat;
     border-radius: 4px;
+    color: wheat;
     background-color: #000000;
 }
 .search-select {
