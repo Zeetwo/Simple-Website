@@ -17,7 +17,7 @@
     width: 60px;
 }
 .nav-logo .logo {
-    background-image: url("images-removebg-preview.png");
+    background-image: url("#");
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -89,7 +89,23 @@ video::before {
 .center .btns {
     margin-top: 20px;
 }
-.center .btns button {
+.center .btns .btns1 {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: wheat;
+    background-color: transparent;
+    transition: all 0.3s ease-in;
+}
+.center .btns .btns1:hover {
+    background: wheat;
+    color: black;
+}
+.center .btns .btns2 {
     height: 55px;
     width: 170px;
     border-radius: 5px;
@@ -100,7 +116,7 @@ video::before {
     background-color: wheat;
     transition: all 0.3s ease-in;
 }
-.center .btns button:hover {
+.center .btns .btns2:hover {
     background: none;
     color: wheat;
 }
